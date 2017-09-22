@@ -1,0 +1,39 @@
+Sistema de Recomendação
+- filtragem colaborativa 
+- bases de dados (que será usada no sistema)
+
+################################
+empresas que usam :
+- Netflix
+- Amazon
+- Spotify
+- Last.fm
+- Youtube
+###############################
+
+"Selecionar itens personalizados com base nos interesses dos usuários" 
+
+######################
+Tipos de Sistemas de Recomendação 
+- Recuperação direta da informação
+    * Palavras-chave (Ex: "os mais vendidos","os mais clicados")
+- Filtragem por contúdo 
+    * contúdo dos itens
+    * comparação da descrição dos itens
+_ Filtragem COlaborativa
+    tem como base a avliaççao dos usuários
+
+###################################
+
+Filtragem Colaborativa
+
+- Prever o grau de interesse sobre um item baseado nas avaliações feitas por esse cliente e as avaliações feitas por outros clientes com perfil semelhante.
+- vizinhança de usuários
+- Perguntar para amigos (ideia da filtragem)
+- Tarefa cooperativa entre um ou mais indivíduos 
+- Troca de experiências entre perfis comuns 
+- Pesquisar um grande grupo de pessoas e encontrar um subconjuntos menor com gosto parecido
+
+baseada em :
+- calcular a similaridae entre os usuários
+- calcular as recomendaçõe para os filmes não assistidos  
