@@ -1,8 +1,9 @@
-from db_users import avaliacoes,euclidiana,getSimilares,getRecomendacoes
+from db_users import avaliacoes
+from function import euclidiana,getSimilares,getRecomendacoes
 
 
-ava =  avaliacoes ['Ana']['Star Trek']
-ava1 = avaliacoes ['Marcos']['Star Trek']
+'''ava =  avaliacoes ['Ana']['Star Trek']
+ava1 = avaliacoes ['Marcos']['Star Trek']'''
 
 '''print(ava)  #imprime a nota de avaliação do filme Star Trek , avaliado por Ana
 print(ava1) #imprime a nota de avaliação do filme Star Trek , avaliado por Marcos
