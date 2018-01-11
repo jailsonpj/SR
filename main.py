@@ -1,4 +1,4 @@
-from db_users import avaliacoes,euclidiana,getSimilares
+from db_users import avaliacoes,euclidiana,getSimilares,getRecomendacoes
 
 
 ava =  avaliacoes ['Ana']['Star Trek']
@@ -15,4 +15,5 @@ print(euclidiana('Leonardo','Ana'))
 print(euclidiana('Claudia','Ana')) #mostra a similaridade entre os usuários
 print(euclidiana('Ana','Pedro'))'''
 
-print(getSimilares('Leonardo'))
+#print(getSimilares('Leonardo'))
+print(getRecomendacoes('Pedro'))
