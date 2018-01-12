@@ -1,5 +1,5 @@
-from db_users import avaliacoes
-from function import euclidiana,getSimilares,getRecomendacoes
+from db_users import *
+from function import *
 
 
 '''ava =  avaliacoes ['Ana']['Star Trek']
@@ -15,6 +15,14 @@ print(avaliacoes['Ana']) #imprime todos os filmes avaliados por Ana '''
 print(euclidiana('Leonardo','Ana'))
 print(euclidiana('Claudia','Ana')) #mostra a similaridade entre os usuários
 print(euclidiana('Ana','Pedro'))'''
+'''
+print(getSimilares('Star Wars'))
+print(getRecomendacoes('Star Trek'))
+print(avaliacoes1['Star Wars']['Ana']) '''
 
-#print(getSimilares('Leonardo'))
-print(getRecomendacoes('Pedro'))
+print(euclidiana(avaliacoesUsuario,'Pedro','Janaina'))
+print(euclidiana(avaliacoesFilme,'Star Wars','Star Trek'))
+print(print(getSimilares(avaliacoesUsuario,'Pedro')))
+print(print(getSimilares(avaliacoesFilme,'Star Wars')))
+print(getRecomendacoes(avaliacoesUsuario,'Leonardo'))
+print(getRecomendacoes(avaliacoesFilme,'Star Wars'))
