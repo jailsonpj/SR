@@ -45,3 +45,6 @@ como fazer recomendações??
   pessoas que não tenham feito avaliações sobre filmes que pode ser de interesse.
   pessoas que tenham gostados de filmes mal avaliados por todos os demais.
 -> atibuir notas usando média ponderada
+
+###################################
+Filtragem baseada em Itens
