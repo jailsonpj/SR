@@ -48,3 +48,9 @@ como fazer recomendações??
 
 ###################################
 Filtragem baseada em Itens
+- para conjuntos de dados muito grandes
+- permite que os cálculos sejam feitos antecipadamente para retornar recomendações mais rapidamente
+- pré-computar os intens mais similares
+- média ponderada com itens similares
+- comparações entre itens não mudarão com tanta frequẽncia quanto comparações entre usuários
+- cálculos feitos em baixo movimento ou em computadores separados 
